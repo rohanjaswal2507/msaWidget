@@ -10,7 +10,7 @@ class msaWidget(widgets.DOMWidget):
     url = Unicode(sync=True)
 
     def plot(self):
-        self.js_seqs = seqs
+        self.js_seqs = self.seqs
 
     def importURL(self, url):
         self.url = url
